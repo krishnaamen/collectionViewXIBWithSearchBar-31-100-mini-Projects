@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAA5138126C069BB0053FC36 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5138026C069BB0053FC36 /* detailViewController.swift */; };
 		FAC78AE926BE660700F55C41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC78AE826BE660700F55C41 /* AppDelegate.swift */; };
 		FAC78AEB26BE660700F55C41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC78AEA26BE660700F55C41 /* SceneDelegate.swift */; };
 		FAC78AED26BE660700F55C41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC78AEC26BE660700F55C41 /* ViewController.swift */; };
 		FAC78AF026BE660700F55C41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC78AEE26BE660700F55C41 /* Main.storyboard */; };
 		FAC78AF226BE660900F55C41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC78AF126BE660900F55C41 /* Assets.xcassets */; };
 		FAC78AF526BE660900F55C41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC78AF326BE660900F55C41 /* LaunchScreen.storyboard */; };
+		FAC78AFF26BE665700F55C41 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC78AFD26BE665700F55C41 /* CollectionViewCell.swift */; };
+		FAC78B0026BE665700F55C41 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC78AFE26BE665700F55C41 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FAA5138026C069BB0053FC36 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		FAC78AE526BE660700F55C41 /* collectionViewXIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collectionViewXIB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC78AE826BE660700F55C41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAC78AEA26BE660700F55C41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		FAC78AF126BE660900F55C41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC78AF426BE660900F55C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC78AF626BE660900F55C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC78AFD26BE665700F55C41 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		FAC78AFE26BE665700F55C41 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				FAC78AEA26BE660700F55C41 /* SceneDelegate.swift */,
 				FAC78AEC26BE660700F55C41 /* ViewController.swift */,
 				FAC78AEE26BE660700F55C41 /* Main.storyboard */,
+				FAA5138026C069BB0053FC36 /* detailViewController.swift */,
+				FAC78AFD26BE665700F55C41 /* CollectionViewCell.swift */,
+				FAC78AFE26BE665700F55C41 /* CollectionViewCell.xib */,
 				FAC78AF126BE660900F55C41 /* Assets.xcassets */,
 				FAC78AF326BE660900F55C41 /* LaunchScreen.storyboard */,
 				FAC78AF626BE660900F55C41 /* Info.plist */,
@@ -126,6 +135,7 @@
 			files = (
 				FAC78AF526BE660900F55C41 /* LaunchScreen.storyboard in Resources */,
 				FAC78AF226BE660900F55C41 /* Assets.xcassets in Resources */,
+				FAC78B0026BE665700F55C41 /* CollectionViewCell.xib in Resources */,
 				FAC78AF026BE660700F55C41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +149,8 @@
 			files = (
 				FAC78AED26BE660700F55C41 /* ViewController.swift in Sources */,
 				FAC78AE926BE660700F55C41 /* AppDelegate.swift in Sources */,
+				FAC78AFF26BE665700F55C41 /* CollectionViewCell.swift in Sources */,
+				FAA5138126C069BB0053FC36 /* detailViewController.swift in Sources */,
 				FAC78AEB26BE660700F55C41 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
